@@ -34,6 +34,10 @@ On Clients:
     npm install
     forever start app.js -n [client_name] -s [server_hostname]
 
+#### Hit Server to see active clients:
+
+    http://[server_hostname]:3334/
+
 
 ## NOTES: 
 
