@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  for key in items
+        p !{key.name} - !{key.ip}
