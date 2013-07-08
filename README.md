@@ -18,17 +18,19 @@ Clients is installed on remote systems and configured to 'phone home' when their
 
 #### Launch the Server:
 
-Checkout the repo on the server machine and then:
+On Server: 
 
-    cd dip/server
+    git clone https://github.com/samartioli/DIP.git
+    cd DIP/server
     npm install
     forever start app.js
 
 #### Install the Clients:
 
-Checkout the repo on the client machine and then:
+On Clients:
 
-    cd dip/client
+    git clone https://github.com/samartioli/DIP.git
+    cd DIP/client
     npm install
     forever start app.js -n [client_name] -s [server_hostname]
 
